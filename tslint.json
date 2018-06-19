@@ -6,8 +6,16 @@
       "node_modules/**/*.ts"
     ]
   },
+  "ordered-imports": [
+    true,
+    {
+      "import-sources-order": "lowercase-last",
+      "named-imports-order": "lowercase-first"
+    }
+  ],
   "rules": {
     "interface-name":[false], 
-    "member-access": [false]
+    "member-access": [false],
+    "no-empty-interface": [false]
   }
 }
