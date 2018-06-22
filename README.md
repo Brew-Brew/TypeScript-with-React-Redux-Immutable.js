@@ -1,6 +1,8 @@
 # TypeScript-with-React-Redux-Immutable.js
 
 ```
+참고: https://velopert.com/3595
+
 - javascript -> weekly typed언어
 - typescript를 리액트 프로젝트에서 적용해본다.
 
