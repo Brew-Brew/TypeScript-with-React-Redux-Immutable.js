@@ -11,10 +11,13 @@
     }
   ],
   "rules": {
-    "jsx-no-lambda": [false],
-    "object-literal-sort-keys": [false],
-    "interface-name": [false],
-    "member-access": [false],
-    "no-empty-interface": [false]
+    "jsx-no-lambda": false,
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+    "member-access": false,
+    "no-empty-interface": false,
+    "no-any": false,
+    "ordered-imports": false,
+    "interface-over-type-literal": false
   }
 }
