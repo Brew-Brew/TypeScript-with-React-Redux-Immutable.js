@@ -1,15 +1,15 @@
 import * as React from "react";
-import CounterContainer from "./components/CounterContainer";
 import Profile from "./components/Profile";
-import TodoList from "./components/TodoList";
+import CounterContainer from "./containers/CounterContainer";
+import TodoListContainer from "./containers/TodoListContainer";
 
 class App extends React.Component {
-  public render() {
+  render() {
     return (
       <div>
-        <Profile name="이승규" job="풀스택" />
+        <Profile name="이승규" job="프론트조아" />
         <CounterContainer />
-        <TodoList />
+        <TodoListContainer />
       </div>
     );
   }
