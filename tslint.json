@@ -18,6 +18,8 @@
     "no-empty-interface": false,
     "no-any": false,
     "ordered-imports": false,
-    "interface-over-type-literal": false
+    "interface-over-type-literal": false,
+    "no-angle-bracket-type-assertion": false,
+    "max-classes-per-file": [true, 5, "exclude-class-expressions"]
   }
 }
